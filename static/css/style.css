@@ -1,0 +1,142 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background-color: #ffe8a1;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff5722;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+button, .btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #e64a19;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+footer a {
+  color: #ffe8a1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff5722;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  section {
+      padding: 15px;
+  }
+
+  header h1 {
+      font-size: 2rem;
+  }
+}
